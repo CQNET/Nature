@@ -1,0 +1,13 @@
+H:\cnki\自然博物馆项目\Nature.Client\bin\Release\netcoreapp2.2\win10-x64\hostpolicy.dll
+H:\cnki\自然博物馆项目\Nature.Client\bin\Release\netcoreapp2.2\win10-x64\hostfxr.dll
+H:\cnki\自然博物馆项目\Nature.Client\bin\Release\netcoreapp2.2\win10-x64\Nature.Client.exe
+H:\cnki\自然博物馆项目\Nature.Client\bin\Release\netcoreapp2.2\win10-x64\Nature.Client.deps.json
+H:\cnki\自然博物馆项目\Nature.Client\bin\Release\netcoreapp2.2\win10-x64\Nature.Client.runtimeconfig.json
+H:\cnki\自然博物馆项目\Nature.Client\bin\Release\netcoreapp2.2\win10-x64\Nature.Client.runtimeconfig.dev.json
+H:\cnki\自然博物馆项目\Nature.Client\bin\Release\netcoreapp2.2\win10-x64\Nature.Client.dll
+H:\cnki\自然博物馆项目\Nature.Client\bin\Release\netcoreapp2.2\win10-x64\Nature.Client.pdb
+H:\cnki\自然博物馆项目\Nature.Client\obj\Release\netcoreapp2.2\win10-x64\Nature.Client.csprojAssemblyReference.cache
+H:\cnki\自然博物馆项目\Nature.Client\obj\Release\netcoreapp2.2\win10-x64\Nature.Client.AssemblyInfoInputs.cache
+H:\cnki\自然博物馆项目\Nature.Client\obj\Release\netcoreapp2.2\win10-x64\Nature.Client.AssemblyInfo.cs
+H:\cnki\自然博物馆项目\Nature.Client\obj\Release\netcoreapp2.2\win10-x64\Nature.Client.dll
+H:\cnki\自然博物馆项目\Nature.Client\obj\Release\netcoreapp2.2\win10-x64\Nature.Client.pdb

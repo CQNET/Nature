@@ -1,0 +1,11 @@
+H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\bin\Release\netcoreapp2.2\Nature.Server.deps.json
+H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\bin\Release\netcoreapp2.2\Nature.Server.runtimeconfig.json
+H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\bin\Release\netcoreapp2.2\Nature.Server.runtimeconfig.dev.json
+H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\bin\Release\netcoreapp2.2\Nature.Server.dll
+H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\bin\Release\netcoreapp2.2\Nature.Server.pdb
+H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.csproj.CoreCompileInputs.cache
+H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.AssemblyInfoInputs.cache
+H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.AssemblyInfo.cs
+H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.dll
+H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.pdb
+H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.csprojAssemblyReference.cache

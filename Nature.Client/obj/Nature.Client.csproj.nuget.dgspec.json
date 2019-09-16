@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\cnki\\自然博物馆项目\\Nature.Client\\Nature.Client.csproj": {}
+  },
+  "projects": {
+    "H:\\cnki\\自然博物馆项目\\Nature.Client\\Nature.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\cnki\\自然博物馆项目\\Nature.Client\\Nature.Client.csproj",
+        "projectName": "Nature.Client",
+        "projectPath": "H:\\cnki\\自然博物馆项目\\Nature.Client\\Nature.Client.csproj",
+        "packagesPath": "C:\\Users\\Enz\\.nuget\\packages\\",
+        "outputPath": "H:\\cnki\\自然博物馆项目\\Nature.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Enz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-dev/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.6.0-preview9.19421.4, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
