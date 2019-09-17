@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\cnki\\自然博物馆项目\\Nature.Client\\Nature.Client.csproj": {}
+    "C:\\Users\\Enz\\Desktop\\Nature\\Nature.Client\\Nature.Client.csproj": {}
   },
   "projects": {
-    "H:\\cnki\\自然博物馆项目\\Nature.Client\\Nature.Client.csproj": {
+    "C:\\Users\\Enz\\Desktop\\Nature\\Nature.Client\\Nature.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\cnki\\自然博物馆项目\\Nature.Client\\Nature.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Enz\\Desktop\\Nature\\Nature.Client\\Nature.Client.csproj",
         "projectName": "Nature.Client",
-        "projectPath": "H:\\cnki\\自然博物馆项目\\Nature.Client\\Nature.Client.csproj",
+        "projectPath": "C:\\Users\\Enz\\Desktop\\Nature\\Nature.Client\\Nature.Client.csproj",
         "packagesPath": "C:\\Users\\Enz\\.nuget\\packages\\",
-        "outputPath": "H:\\cnki\\自然博物馆项目\\Nature.Client\\obj\\",
+        "outputPath": "C:\\Users\\Enz\\Desktop\\Nature\\Nature.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -45,7 +45,7 @@
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
+              "version": "[2.2.6, )",
               "autoReferenced": true
             },
             "System.Drawing.Common": {
@@ -54,10 +54,21 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview8-013656\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x64": {
+          "#import": []
         }
       }
     }

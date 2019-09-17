@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\cnki\\自然博物馆项目\\Nature.Server\\Nature.Server\\Nature.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Enz\\Desktop\\Nature\\Nature.Server\\Nature.Server\\Nature.Server.csproj",
       "projectName": "Nature.Server",
-      "projectPath": "H:\\cnki\\自然博物馆项目\\Nature.Server\\Nature.Server\\Nature.Server.csproj",
+      "projectPath": "C:\\Users\\Enz\\Desktop\\Nature\\Nature.Server\\Nature.Server\\Nature.Server.csproj",
       "packagesPath": "C:\\Users\\Enz\\.nuget\\packages\\",
-      "outputPath": "H:\\cnki\\自然博物馆项目\\Nature.Server\\Nature.Server\\obj\\",
+      "outputPath": "C:\\Users\\Enz\\Desktop\\Nature\\Nature.Server\\Nature.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

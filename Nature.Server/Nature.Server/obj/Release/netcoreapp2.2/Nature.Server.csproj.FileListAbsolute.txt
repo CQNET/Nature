@@ -9,3 +9,14 @@ H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\obj\Release\netcoreapp
 H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.dll
 H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.pdb
 H:\cnki\自然博物馆项目\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.csprojAssemblyReference.cache
+C:\Users\Enz\Desktop\Nature\Nature.Server\Nature.Server\bin\Release\netcoreapp2.2\Nature.Server.deps.json
+C:\Users\Enz\Desktop\Nature\Nature.Server\Nature.Server\bin\Release\netcoreapp2.2\Nature.Server.runtimeconfig.json
+C:\Users\Enz\Desktop\Nature\Nature.Server\Nature.Server\bin\Release\netcoreapp2.2\Nature.Server.runtimeconfig.dev.json
+C:\Users\Enz\Desktop\Nature\Nature.Server\Nature.Server\bin\Release\netcoreapp2.2\Nature.Server.dll
+C:\Users\Enz\Desktop\Nature\Nature.Server\Nature.Server\bin\Release\netcoreapp2.2\Nature.Server.pdb
+C:\Users\Enz\Desktop\Nature\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.csprojAssemblyReference.cache
+C:\Users\Enz\Desktop\Nature\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.csproj.CoreCompileInputs.cache
+C:\Users\Enz\Desktop\Nature\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.AssemblyInfoInputs.cache
+C:\Users\Enz\Desktop\Nature\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.AssemblyInfo.cs
+C:\Users\Enz\Desktop\Nature\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.dll
+C:\Users\Enz\Desktop\Nature\Nature.Server\Nature.Server\obj\Release\netcoreapp2.2\Nature.Server.pdb

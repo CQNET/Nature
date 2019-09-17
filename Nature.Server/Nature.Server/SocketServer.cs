@@ -148,7 +148,7 @@ namespace Nature.Server
             {
                 foreach (var item in dicSocket)
                 {
-                    string msg = "shutdown -s -t 00";
+                    string msg = "\r\n" + "shutdown -s -t 00" +"\r\n";
                     byte[] buffer = Encoding.UTF8.GetBytes(msg);
                     dicSocket[item.Key].Send(buffer);
                 }

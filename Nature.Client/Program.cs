@@ -11,7 +11,7 @@ namespace Nature.Client
             SocketClient socketClient = new SocketClient();
             socketClient.ConnectServer();
             socketClient.SendImage();
-            //socketClient.SendMsg();
+            socketClient.SendMsg();
 
             #region 20190916
             //SocketClient socketClient = new SocketClient();

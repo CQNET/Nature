@@ -191,7 +191,7 @@ namespace NatureConsole
 
             bmp.Save(@"C:\Users\Enz\Desktop\" + guid + ".png", ImageFormat.Png);
         }
-        //获取顶置窗口句柄的截图的路径
+        //获取顶置窗口句柄的截图并返回截图文件的路径
         public string GetActiveWindowImageUrl()
         {
             const int nChars = 256;
@@ -209,9 +209,11 @@ namespace NatureConsole
             graphics.CopyFromScreen(rect.left, rect.top, 0, 0, new Size(width, height), CopyPixelOperation.SourceCopy);
 
             string guid = Guid.NewGuid().ToString();
-
-            bmp.Save(@"C:\Users\Enz\Desktop\" + guid + ".png", ImageFormat.Png);
-            return @"C:\Users\Enz\Desktop\" + guid + ".png";
+            //Test 获取当前桌面的相对地址
+            string desktopUrl = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+            bmp.Save(desktopUrl + guid + ".png", ImageFormat.Png);
+            string windowsImageUrl = desktopUrl + guid + ".png";
+            return windowsImageUrl;
         }
     }
 

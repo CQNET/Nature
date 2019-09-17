@@ -31,3 +31,14 @@ H:\cnki\自然博物馆项目\Nature.Client\obj\Debug\netcoreapp2.2\Nature.Clien
 H:\cnki\自然博物馆项目\Nature.Client\obj\Debug\netcoreapp2.2\Nature.Client.AssemblyInfo.cs
 H:\cnki\自然博物馆项目\Nature.Client\obj\Debug\netcoreapp2.2\Nature.Client.dll
 H:\cnki\自然博物馆项目\Nature.Client\obj\Debug\netcoreapp2.2\Nature.Client.pdb
+C:\Users\Enz\Desktop\Nature\Nature.Client\bin\Debug\netcoreapp2.2\Nature.Client.deps.json
+C:\Users\Enz\Desktop\Nature\Nature.Client\bin\Debug\netcoreapp2.2\Nature.Client.runtimeconfig.json
+C:\Users\Enz\Desktop\Nature\Nature.Client\bin\Debug\netcoreapp2.2\Nature.Client.runtimeconfig.dev.json
+C:\Users\Enz\Desktop\Nature\Nature.Client\bin\Debug\netcoreapp2.2\Nature.Client.dll
+C:\Users\Enz\Desktop\Nature\Nature.Client\bin\Debug\netcoreapp2.2\Nature.Client.pdb
+C:\Users\Enz\Desktop\Nature\Nature.Client\obj\Debug\netcoreapp2.2\Nature.Client.csprojAssemblyReference.cache
+C:\Users\Enz\Desktop\Nature\Nature.Client\obj\Debug\netcoreapp2.2\Nature.Client.csproj.CoreCompileInputs.cache
+C:\Users\Enz\Desktop\Nature\Nature.Client\obj\Debug\netcoreapp2.2\Nature.Client.AssemblyInfoInputs.cache
+C:\Users\Enz\Desktop\Nature\Nature.Client\obj\Debug\netcoreapp2.2\Nature.Client.AssemblyInfo.cs
+C:\Users\Enz\Desktop\Nature\Nature.Client\obj\Debug\netcoreapp2.2\Nature.Client.dll
+C:\Users\Enz\Desktop\Nature\Nature.Client\obj\Debug\netcoreapp2.2\Nature.Client.pdb
