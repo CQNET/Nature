@@ -12,12 +12,21 @@ namespace Nature.Server
 
         static void Main(string[] args)
         {
-            SocketServer socket = new SocketServer();
-            socket.CreateSocket();
-            //socket.SendMsg();
-            socket.SendMsg2All();
-            //string ip = Console.ReadLine();
-            //socket.SendMsg2Alone(ip);
+            ////SocketServer调用
+            //SocketServer socket = new SocketServer();
+            //socket.CreateSocket();
+            ////socket.SendMsg();
+            //socket.SendMsg2All();
+            ////string ip = Console.ReadLine();
+            ////socket.SendMsg2Alone(ip);
+            //Console.ReadKey();
+
+            ////TcpHelper调用
+            //TcpHelper.StartListener();
+            //TcpHelper.ConnectAsTcpClient();
+            //Console.ReadLine();
+
+            TcpListeners tcpListeners = new TcpListeners();
             Console.ReadKey();
         }
         #region 20190916

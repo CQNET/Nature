@@ -8,10 +8,14 @@ namespace Nature.Client
     {
         static void Main(string[] args)
         {
-            SocketClient socketClient = new SocketClient();
-            socketClient.ConnectServer();
-            socketClient.SendImage();
-            socketClient.SendMsg();
+            ////SocketClient调用
+            //SocketClient socketClient = new SocketClient();
+            //socketClient.ConnectServer();
+            //socketClient.SendImage();
+            //socketClient.SendMsg();
+
+            //TcpClients调用
+            TcpClients tcpClients = new TcpClients();
 
             #region 20190916
             //SocketClient socketClient = new SocketClient();

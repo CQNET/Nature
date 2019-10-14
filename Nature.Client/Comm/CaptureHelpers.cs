@@ -215,8 +215,9 @@ namespace NatureConsole
             string windowsImageUrl = desktopUrl + guid + ".png";
             return windowsImageUrl;
         }
+        
     }
-
+    
     //通过窗口句柄获取窗口矩形
     public static class User32
     {
@@ -231,5 +232,6 @@ namespace NatureConsole
 
         [DllImport("user32.dll")]
         public static extern IntPtr GetWindowRect(IntPtr hWnd, ref Rect rect);
+        
     }
 }

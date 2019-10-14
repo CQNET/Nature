@@ -42,6 +42,7 @@ namespace Nature.Server
         void ShowMsg(string str)
         {
             Console.WriteLine(str + "\r\n");
+            Console.Title = "服务器";
         }
 
         Socket socketSend;
@@ -57,6 +58,7 @@ namespace Nature.Server
                     Socket socketWatch = o as Socket;
                     //等待客户端的连接，并创建一个负责通信的Socket
                     socketSend = socketWatch.Accept();
+                    //socketWatch.AcceptAsync();
                     dicSocket.Add(socketSend.RemoteEndPoint.ToString(),socketSend);
                     ShowMsg(socketSend.RemoteEndPoint.ToString() + ":" + "连接成功");
                     //开启一个新线程，不停地接收客户端发来的消息
@@ -70,9 +72,7 @@ namespace Nature.Server
                 //{
                 //    Console.WriteLine("Exception Log:" + ex.ToString());
                 //}
-                
             }
-            
         }
         //服务器端不停地接收客户端发过来的消息
         void ReciveMsg(object o)
@@ -139,7 +139,6 @@ namespace Nature.Server
             catch
             {
             }
-            
         }
         //给所有的客户端发送消息
         public void SendMsg2All()

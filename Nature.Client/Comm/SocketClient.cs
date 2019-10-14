@@ -15,6 +15,7 @@ namespace Nature.Client.Comm
         Socket socketSend;
         public void ConnectServer()
         {
+            Console.Title = "客户端";
             try
             {
                 //创建负责通信的Socket
@@ -23,7 +24,8 @@ namespace Nature.Client.Comm
                 IPAddress iPAddress = IPAddress.Parse("192.168.1.34");
                 //string ip = GetLocalIp();
                 //IPAddress iPAddress = IPAddress.Parse(ip);
-                IPEndPoint iPEndPoint = new IPEndPoint(iPAddress, 50000);
+                //IPEndPoint iPEndPoint = new IPEndPoint(iPAddress, 50000);
+                IPEndPoint iPEndPoint = new IPEndPoint(iPAddress, 10001);
                 socketSend.Connect(iPEndPoint);
                 ShowMsg("连接服务器成功");
 
@@ -53,8 +55,10 @@ namespace Nature.Client.Comm
         void ShowMsg(string str)
         {
             Console.WriteLine(str + "\r\n");
+           
         }
 
+        //public async void SendMsg()
         public void SendMsg()
         {
             while (true)
@@ -70,6 +74,7 @@ namespace Nature.Client.Comm
                     byte[] newBuffer = list.ToArray();
 
                     socketSend.Send(newBuffer);
+                    //await socketSend.SendAsync(newBuffer,SocketFlags.None);
                 }
                 catch
                 {
